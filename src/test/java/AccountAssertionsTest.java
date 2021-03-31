@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 public class AccountAssertionsTest {
     @Test
     public void AccountAssertionsTest() {
- 
+        System.out.println("Starting AccountAssertionsTest");
         Account account_one = new Account(200, "John Doe");
         Account account_two = new Account(200, "Tom Smith");
         Account account_three = new Account(100, "John Doe");

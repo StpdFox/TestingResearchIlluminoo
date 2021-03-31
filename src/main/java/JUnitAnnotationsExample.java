@@ -12,7 +12,7 @@ public class JUnitAnnotationsExample {
 
     private ArrayList<String> list;
 
-    @Before
+    @BeforeClass
     public static void m1() {                           
         System.out.println("Using @BeforeClass , executed before all test cases ");                 
     }       

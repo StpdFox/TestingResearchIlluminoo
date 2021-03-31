@@ -11,7 +11,7 @@ public class TestClassTest {
     @Before
     public void setup() {
         classUnderTest = new TestClass();
-        System.out.println("Start Tests");
+        System.out.println("Starting TestClassTest");
     }
  
     @Test

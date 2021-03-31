@@ -1,4 +1,4 @@
-public class TestClass {
+public class GenericClass {
      
   
     public int doubleNumber(int num) {

@@ -3,14 +3,14 @@ import org.junit.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TestClassTest {
+public class GenericTest {
  
-    private TestClass classUnderTest = new TestClass();
+    private GenericClass classUnderTest = new GenericClass();
      
  
     @Before
     public void setup() {
-        classUnderTest = new TestClass();
+        classUnderTest = new GenericClass();
         System.out.println("Starting TestClassTest");
     }
  
